@@ -151,7 +151,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="evaluate.cpp" />
     <ClCompile Include="matheval.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="evaluate.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

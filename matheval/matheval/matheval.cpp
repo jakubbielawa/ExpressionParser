@@ -1,6 +1,15 @@
 #include <iostream>
+#include <string>
+#include <list>
+
+#include "evaluate.h"
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	list<string> rpn = { "3","4","+" };
+
+	cout << evaluate(rpn);
+	getchar();
 }
